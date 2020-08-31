@@ -1,0 +1,61 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>農藥銷售簡易POS</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>1</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Management\2.0.0.0__b03f5f7f11d50a3a\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="TouchscreenKeyboard">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\TouchscreenKeyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="DbAccess">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\DbAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SevenZipSharp">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\SevenZipSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\Lilith\AppData\Local\Apps\2.0\9YR5P95D.TAA\OARJKKE0.TGA\pos...tion_f6a66fc7138150b2_0001.0000_5c4699b1a49744e2\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
